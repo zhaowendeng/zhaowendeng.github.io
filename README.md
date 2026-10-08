@@ -26,6 +26,6 @@ order: 3
 Authors. *Venue* (Year). [Link](https://example.com/)
 ```
 
-Change `order` to control its position (smaller numbers appear first). Text below the second `---` uses ordinary Markdown. A newly committed item appears on the relevant page and, for publications, on Home and CV as well. Conference and project items also appear on Home. Empty Conference and Project sections have no placeholder text.
+For publications, give each new item the next larger `order` number (for example, 3 after 2). Publications display in descending order, so the newest item appears first on Publication, Home, and CV; existing files need no renumbering. Conference and project items still display in ascending `order`. Text below the second `---` uses ordinary Markdown. Empty Conference and Project sections have no placeholder text.
 
 The shared design and navigation live in `_layouts/default.html`. The short page files `index.html`, `publication.md`, `conference.md`, and `cv.md` select which sections to display.
