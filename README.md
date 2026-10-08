@@ -1,6 +1,6 @@
 # Zhaowen Deng's academic website
 
-This site uses GitHub Pages and Jekyll. The blue banner, portrait sidebar, and page layout are shared across Home, Publication, Conference, and CV. Content updates do not require editing the layout.
+This site uses GitHub Pages and Jekyll. The blue banner, portrait sidebar, and page layout are shared across Home, Publication, Conference, Project, and CV. Content updates do not require editing the layout.
 
 ## Edit on GitHub
 
@@ -28,4 +28,4 @@ Authors. *Venue* (Year). [Link](https://example.com/)
 
 For publications, give each new item the next larger `order` number (for example, 3 after 2). Publications display in descending order, so the newest item appears first on Publication, Home, and CV; existing files need no renumbering. Conference and project items still display in ascending `order`. Text below the second `---` uses ordinary Markdown. Empty Conference and Project sections have no placeholder text.
 
-The shared design and navigation live in `_layouts/default.html`. The short page files `index.html`, `publication.md`, `conference.md`, and `cv.md` select which sections to display.
+The shared design and navigation live in `_layouts/default.html`. The short page files `index.html`, `publication.md`, `conference.md`, `project.md`, and `cv.md` select which sections to display.
