@@ -1,0 +1,13 @@
+title: Zhaowen Deng
+url: https://zhaowendeng.github.io
+baseurl: ""
+markdown: kramdown
+collections:
+  publications:
+    output: false
+  conferences:
+    output: false
+  projects:
+    output: false
+exclude:
+  - README.md
