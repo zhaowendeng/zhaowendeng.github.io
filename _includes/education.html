@@ -1,0 +1,6 @@
+<section id="education">
+  <h2>Education</h2>
+  {% for item in site.data.profile.education %}
+  <div class="entry"><strong>{{ item.degree | escape }}</strong><span>{{ item.details | escape }}</span></div>
+  {% endfor %}
+</section>
