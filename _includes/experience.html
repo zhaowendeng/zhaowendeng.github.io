@@ -1,0 +1,6 @@
+<section id="experience">
+  <h2>Professional Experience</h2>
+  {% for item in site.data.profile.experience %}
+  <div class="entry"><strong>{{ item.position | escape }}</strong><span>{{ item.details | escape }}</span></div>
+  {% endfor %}
+</section>
