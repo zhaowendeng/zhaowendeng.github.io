@@ -1,0 +1,7 @@
+<section id="project">
+  <h2>Project</h2>
+  {% assign items = site.projects | sort: 'order' %}
+  {% for item in items %}
+  <div class="publication"><strong>{{ item.title | escape }}</strong>{{ item.content | markdownify }}</div>
+  {% endfor %}
+</section>
